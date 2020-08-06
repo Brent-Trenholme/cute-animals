@@ -1,0 +1,17 @@
+{
+  "name": "cute-animals",
+  "version": "1.0.0",
+  "description": "I let down someone I cared about with my inefficient unsatisfactory delivery of animal videos, I will make sure not to make that mistake again",
+  "main": "index.js",
+  "scripts": {
+    "build-ts": "tsc",
+    "postinstall": "npm run build-ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
+}
