@@ -2,4 +2,4 @@ node_modules
 dist
 
 # Cuz pnpm or yarn are better
-package.lock.json
+package-lock.json
