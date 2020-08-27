@@ -21,6 +21,6 @@ jobs:
     - uses: actions/checkout@v2
 
     # Runs pnpm install and then builds it using tsc (typescript compiler)
-    - uses: creepinson/pnpm-action@v2.1.1-alpha
+    - uses: creepinson/pnpm-action@master
       with:
         arguments: '["install", "build"]'
